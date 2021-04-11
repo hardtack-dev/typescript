@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",
+        "sourceMap": true
+    },
+    // 컴파일 과정에서 필요한 파일의 배열을 적음
+    "include": [
+        "index.ts"
+    ],
+    "exclude": [
+        "node_module"
+    ]
+}
