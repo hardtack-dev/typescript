@@ -1,12 +1,18 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "target": "ES2015",
-        "sourceMap": true
+        "target": "ES2019",
+        "sourceMap": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "strictNullChecks": true,
+        "outDir": "dist",
+        "skipLibCheck": true
     },
     // 컴파일 과정에서 필요한 파일의 배열을 적음
     "include": [
-        "index.ts"
+        "src/**/*"
     ],
     "exclude": [
         "node_module"
